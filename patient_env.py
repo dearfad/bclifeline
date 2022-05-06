@@ -15,7 +15,7 @@ class PatientEnv(Env):
         }
 
     def reset(self, seed=None):
-        pass
+        return 0
 
     def step(self, action):
         self.action = action
